@@ -1,2 +1,18 @@
+.title {
+  font-size: 60px;
+  margin: 5px;
+}
+.subtitle {
+  font-size: 25px;
+  margin: 5px;
+}
+.helper {
+  color: red;
+  font-size: 15px;
+  margin: 5px;
+}
 
-
+.helper::before,
+.helper::after {
+  content: "*";
+}
